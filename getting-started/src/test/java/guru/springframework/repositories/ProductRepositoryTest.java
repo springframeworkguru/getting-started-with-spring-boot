@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class ProductRepositoryTest {
     @Test
     public void testGetProduct(){
-        ProductRepository repository = new ProductRepository();
+        ProductRepositoryImpl repository = new ProductRepositoryImpl();
         Product product = repository.getProduct(1l);
         assertEquals(product.getDescription(), "Spring Guru In Action");
     }
