@@ -2,11 +2,9 @@ package guru.springframework.repositories;
 
 import guru.springframework.domain.Product;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
-/**
- * Created by jt on 3/17/15.
- */
+import static org.junit.Assert.assertEquals;
+
 public class ProductRepositoryTest {
     @Test
     public void testGetProduct(){

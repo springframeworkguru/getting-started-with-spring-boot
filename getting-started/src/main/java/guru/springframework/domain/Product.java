@@ -1,8 +1,5 @@
 package guru.springframework.domain;
 
-/**
- * Created by jt on 3/5/15.
- */
 public class Product {
     private String description;
 

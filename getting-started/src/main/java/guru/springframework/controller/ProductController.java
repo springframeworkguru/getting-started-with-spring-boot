@@ -5,9 +5,6 @@ import guru.springframework.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-/**
- * Created by jt on 3/5/15.
- */
 @Controller
 public class ProductController {
 
